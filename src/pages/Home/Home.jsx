@@ -1,4 +1,4 @@
-import React, { Header } from '../../components/Header/Header';
+import { Header } from '../../components/Header/Header';
 
 export function Home() {
   return (
