@@ -1,0 +1,21 @@
+* {
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-top: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  height: 80px;
+  background-color: #393e46;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #393e46;
+  }
+}
