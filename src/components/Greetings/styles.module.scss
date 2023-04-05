@@ -1,0 +1,27 @@
+* {
+  font-family: sans-serif;
+}
+
+.anchor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.greetings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: auto;
+  border-radius: 8px;
+  height: 80px;
+  width: 600px;
+
+  h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
