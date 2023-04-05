@@ -2,11 +2,30 @@
     font-family: sans-serif;
 }
 
-.header {
+.wrapper {
+    border: 1px solid #393e46;
+    width: 30%;
+    margin: auto;
+}
+
+.pokemonName {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
+
     h1 {
         font-size: 2rem;
+        font-weight: bold;
     }
 }
